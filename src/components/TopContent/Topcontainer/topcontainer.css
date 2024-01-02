@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap');
+
+.topContainer{
+    color: white;
+    position: relative;
+}
+.profileBox{
+    border-radius: 20px;
+}
+.profileBox > img {
+    height: 500px;
+    width: 450px;
+    border: none;
+    border-radius: 270px;
+    margin-top: 150px;
+    margin-left: 200px;
+    box-shadow: 0 0 0 5px rgba(3, 3, 3, -5);
+  } 
+.topContent_topContainer{
+    position: absolute;
+    top: 300px;
+    right: 150px;
+}
+.topContent_topContainer > p{
+    letter-spacing: 1px;
+    text-align: left;
+    padding-left: 3px;
+    padding-top: 20px;
+}
+.topContent_topContainer>a>button{
+    margin-bottom: 30px;
+    text-align: left;
+    margin-left: 5px;
+    border: none;
+    border-radius: 2px;
+    outline: none;
+}
+.topContent_topContainer>h1{
+    font-size: 50px;
+    font-family: "monstserrat",sans-serif;
+}
+button{
+    margin-top: 25px;
+    letter-spacing: 2px;
+}
+.cvButton{
+color: white;
+background-color:#f64c08 ;
+font-size: 14px;
+padding: 10px 30px;
+font-family: "monstserrat",sans-serif;
+font-weight: 300;
+cursor: pointer;
+margin-right:20px;
+}
+
+.cvButton:hover{
+    color: #f64c08;
+    background-color: white;
+    font-weight: 600;
+}
+.workButton{
+    color: white;
+    border: 1px solid white !important;
+    background-color: transparent;
+    font-size: 14px;
+    padding: 9px 45px;
+    font-family: "monstserrat",sans-serif;
+    font-weight: 300;
+    cursor: pointer;
+}
+.workButton:hover{
+    color: black;
+    background-color: white;
+    font-weight: 600;
+}

@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap');
+
+.skillContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 200px 0;
+    padding-top: 90px;
+}
+.skillContainer_text{
+    color: white;
+    text-align: left;
+    max-width: 600px;
+    margin-bottom: 40px;
+}
+.skillContainer_text>h2{
+font-size: 40px;
+padding-bottom: 20px;
+}
+.container1{
+    flex: 0.5;
+    margin-right: 100px;
+
+}
+.container2{
+    flex: 0.5;
+    margin-top: -304px;
+}
+.skillCon_set>h5{
+    font-family: "monstserrat",sans-serif;
+    font-weight: 300;
+    letter-spacing: 2px;
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.skillCon_set_slider>.css-eglki6-MuiLinearProgress-root {
+    background-color: rgb(88,88,88);
+}
+.skillCon_set_slider{
+    padding-bottom: 20px;
+}
+.slider1 .MuiLinearProgress-barColorPrimary {
+    background: linear-gradient(to right, rgb(228, 68, 0), rgb(211, 222, 245));
+}
+
+
+.slider2 .MuiLinearProgress-barColorPrimary {
+    background: linear-gradient(to right, rgb(228, 205, 0), rgb(209, 222, 249));
+}
+
+
+.slider3 .MuiLinearProgress-barColorPrimary {
+    background: linear-gradient(to right, rgb(46, 228, 0), rgb(136, 221, 181));
+}
+
+
+.slider4 .MuiLinearProgress-barColorPrimary {
+    background: linear-gradient(to right, rgb(0, 224, 228), rgb(180, 245, 243));
+}
+
+
+.slider5 .MuiLinearProgress-barColorPrimary {
+    background: linear-gradient(to right, rgb(228, 0, 23), rgb(218, 183, 180));
+}
+
+.slider6 .MuiLinearProgress-barColorPrimary {
+    background: linear-gradient(to right, rgb(0, 41, 226), rgb(148, 174, 227));
+}
+
+
+.slider7 .MuiLinearProgress-barColorPrimary {
+    background: linear-gradient(to right, rgb(201, 0, 228), rgb(171, 190, 230));
+}
+
